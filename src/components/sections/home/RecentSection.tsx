@@ -2,11 +2,17 @@ import { recentResults } from "@/data/ctf-results";
 import Link from "next/link";
 
 const tagColors: Record<string, string> = {
-  Web:    "border-blue-500/40 text-blue-400",
-  Pwn:    "border-red-500/40 text-red-400",
-  Crypto: "border-yellow-500/40 text-yellow-400",
-  Rev:    "border-purple-500/40 text-purple-400",
-  Misc:   "border-primary/40 text-primary",
+  Web: "border-blue-500/60 text-blue-400",
+  Pwn: "border-red-500/60 text-red-400",
+  Crypto: "border-yellow-500/60 text-yellow-400",
+  Rev: "border-purple-500/60 text-purple-400",
+  Misc: "border-green-500/60 text-green-400",
+  Forensics: "border-cyan-500/60 text-cyan-400",
+  OSINT: "border-orange-500/60 text-orange-400",
+  Blockchain: "border-emerald-500/60 text-emerald-400",
+  Jail: "border-pink-500/60 text-pink-400",
+  Boot2Root: "border-rose-500/60 text-rose-400",
+  PPC: "border-lime-500/60 text-lime-400",
 };
 
 export function RecentSection() {

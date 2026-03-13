@@ -12,7 +12,7 @@ export default function AboutPage() {
           <h1 className="font-mono-display text-4xl md:text-5xl font-bold text-text-primary mb-6">
             G1FT3D とは
           </h1>
-          <p className="text-text-muted leading-relaxed text-base md:text-lg max-w-2xl">
+          <p className="text-text-muted leading-relaxed text-base md:text-lg whitespace-pre-wrap">
             {teamInfo.description}
           </p>
         </div>

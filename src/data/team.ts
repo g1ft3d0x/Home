@@ -2,8 +2,8 @@ export const teamInfo = {
   name: "G1FT3D",
   tagline: "> ./exploit --target=ctf --mode=all",
   description:
-    "G1FT3D は、CTF（Capture The Flag）を中心に活動するサイバーセキュリティチームです。" +
-    "Web・Pwn・Crypto・Rev・Misc など幅広いジャンルに対応し、技術の研鑽と知識の共有を目的として活動しています。",
+    "G1FT3Dは「異能で異能をつくりあげる」を掲げた学生のためのコミュニティです。\n" +
+    "CTF・競プロ・数学など幅広いジャンルに対応し、技術の研鑽と知識の共有を目的として活動しています。",
   founded: "2024",
   twitterUrl: "https://twitter.com/g1ft3d_ctf",  // TODO: 実際のURLに変更
 };
@@ -28,10 +28,9 @@ export const categories = [
 ];
 
 export const stats = [
-  { label: "CTF参加回数", value: 42, suffix: "回" },
-  { label: "解いた問題数", value: 256, suffix: "問" },
-  { label: "最高チーム順位", value: 3, suffix: "位" },
-  { label: "チームメンバー", value: 6, suffix: "人" },
+  { label: "CTF参加回数", value: 4, suffix: "回" },
+  { label: "最高チーム順位", value: 100, suffix: "位" },
+  { label: "チームメンバー", value: 50, suffix: "人" },
 ];
 
 export const history = [
@@ -39,4 +38,6 @@ export const history = [
   { year: "2025-06", event: "Diver OSINT CTF 参加(2666Point/100th)" },
   { year: "2025-07", event: "SECCON Beginners CTF 2025参加(1772Point/214th)" },
   { year: "2025-12", event: "コミックマーケット107 出典" },
+  { year: "2026-01", event: "Swimmer OSINT CTF 参加(3514Point/111th)" },
+  { year: "2026-03", event: "Pico CTF 2026参加(???Point/???th)" },
 ];

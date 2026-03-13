@@ -14,11 +14,11 @@ export function StatsSection() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="border border-border bg-surface rounded-xl p-6 text-center hover:border-primary transition-colors duration-300 group"
+              className="flex-1 min-w-[160px] max-w-[220px] border border-border bg-surface rounded-xl p-6 text-center hover:border-primary transition-colors duration-300 group"
             >
               <div className="font-mono-display text-4xl md:text-5xl font-bold text-primary text-glow mb-2 group-hover:scale-110 transition-transform duration-300">
                 <NumberTicker value={stat.value} suffix={stat.suffix} />
