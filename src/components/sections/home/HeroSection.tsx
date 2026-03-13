@@ -51,8 +51,7 @@ export function HeroSection() {
 
         {/* 説明 */}
         <p className="text-text-muted text-sm text-text-primary max-w-xl mx-auto mb-10 leading-relaxed">
-          CTF（Capture The Flag）を中心に活動するサイバーセキュリティチーム。<br />
-          Web / Pwn / Crypto / Rev / Misc — 全ジャンル対応。
+          異能で異能をつくりあげる、学生のためのコミュニティ。
         </p>
 
 
